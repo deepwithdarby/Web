@@ -3522,6 +3522,7 @@ padding-right:$(sidebar.width)
                       </div>
                     </div>
                   </b:if>
+                  <b:section class='main-top-section' id='main_top_section' name='Page Top' showaddelement='true' tag='div'/>
                   <b:section class='main' id='page_body' name='Page Body' showaddelement='false'>
                     <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='true' title='' type='FeaturedPost' visible='false'>
                       <b:widget-settings>
@@ -4136,6 +4137,7 @@ padding-right:$(sidebar.width)
         </b:includable>
                     </b:widget>
                   </b:section>
+                  <b:section class='main-bottom-section' id='main_bottom_section' name='Page Bottom' showaddelement='true' tag='div'/>
                 </main>
               </div>
             </div>
@@ -4321,7 +4323,7 @@ padding-right:$(sidebar.width)
           </b:section>
         </aside>
       </div>
-      <b:section class='footer' id='footer' name='Footer' showaddelement='false' tag='footer'>
+      <b:section class='footer' id='footer' name='Footer' showaddelement='true' tag='footer'>
         <b:widget id='Attribution1' locked='true' title='' type='Attribution' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='copyright'/>
